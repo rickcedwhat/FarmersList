@@ -1,4 +1,6 @@
 // Import Classes Here
+// Import Classes Here
+const Product = require('./classes/Product')
 
 
 
@@ -7,9 +9,6 @@
 
 
 
-
-
-// DO NOT EDIT BELOW THIS LINE
 try {
     module.exports = {
         Product,
