@@ -11,6 +11,13 @@ class Cart{
         const [product] = this.products.splice(index,1);
         this.total-=product.price;
     }
+    getTotal(){
+        return this.total;
+    }
+    clear(){
+        this.products=[];
+        this.total=0;
+    }
 }
 
 
